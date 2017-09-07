@@ -4,17 +4,17 @@
   git是Linus Tovralds为了帮助管理Linux内核开发而开发的一个开放源码的版本控制软件。<br>
 2.GitHub是一个面向开源及私有软件项目的托管平台，因为只支持Git作为唯一的版本库格式进行托管。<br>
 3.git指令<br>
-  git init：初始化，让git接管<br>
-  git status:监控状态<br>
-  git add .:接管文件，.表所有<br>
-  git diff:进行了什么修改（监控，对比）<br>
-  git commit -m "111":形成版本，不会消失，一定要输入注释<br>
-  git log:输出之前所有版本<br>
-  git reset --hard xxxxx:之前的版本<br>
-  git push origin master：上传库，主分支<br>
-  git clone 地址：克隆到本地<br>
-  git romote add origin http://:添加一个远程地址<br>
-  git pull origin master:获取更新<br>
+    git init：初始化，让git接管<br>
+    git status:监控状态<br>
+    git add .:接管文件，.表所有<br>
+    git diff:进行了什么修改（监控，对比）<br>
+    git commit -m "111":形成版本，不会消失，一定要输入注释<br>
+    git log:输出之前所有版本<br>
+    git reset --hard xxxxx:之前的版本<br>
+    git push origin master：上传库，主分支<br>
+    git clone 地址：克隆到本地<br>
+    git romote add origin http://:添加一个远程地址<br>
+    git pull origin master:获取更新<br>
 详细命令见廖雪峰的网站https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137621280731812dec22ecc9b44f4b2ca1c680f181a5b000<br>
 4.问题解决<br>
   a.如上传时提醒没有邮箱地址及用户名，则输入<br>
